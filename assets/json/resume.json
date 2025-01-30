@@ -12,7 +12,7 @@
       "location": "İstanbul, Turkey",
       "area": "Molecular Biology and Bioengineering",
       "studyType": "PhD",
-      "endDate": "2024",
+      "endDate": "2024"
     },
 
     {
@@ -20,15 +20,15 @@
       "location": "Freiburg im Breisgau, Germany",
       "area": "Chemistry",
       "studyType": "MSc",
-      "endDate": "2014",
+      "endDate": "2014"
     },
-    
+
     {
       "institution": "Middle East Technical University",
       "location": "Ankara, Turkey",
       "area": "Chemistry",
       "studyType": "BSc",
-      "endDate": "2010",
+      "endDate": "2010"
     }
   ],
 
