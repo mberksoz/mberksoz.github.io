@@ -11,19 +11,19 @@
       "institution": "Middle East Technical University",
       "area": "Chemistry",
       "studyType": "BSc",
-      "endDate": "2010"
+      "date": "2010"
     },
     {
       "institution": "Albert Ludwigs University of Freiburg",
       "area": "Chemistry",
       "studyType": "MSc",
-      "endDate": "2014"
+      "date": "2014"
     },
     {
       "institution": "Sabanci University",
       "area": "Molecular Biology and Bioengineering",
       "studyType": "PhD",
-      "endDate": "2024"
+      "date": "2024"
     }
   ],
 
