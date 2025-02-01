@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-new-blog-post",
+        },{id: "post-highlight-of-the-week",
       
-        title: "new_blog_post",
+        title: "Highlight of the week !",
       
-      description: "march &amp; april, looking forward to summer",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/new_blog_post/";
+          window.location.href = "/blog/2025/highlight/";
         
       },
     },{id: "news-",
