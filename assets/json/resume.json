@@ -2,8 +2,8 @@
   "basics": {
     "Name": "Melike Berksöz",
     "Email": "mberksoz@sabanciuniv.edu",
-    "Languages": "Turkish(native), English (Fluent), German (Intermediate)",
-    "Address":"Sabanci UNiversity,Faculty of Engineering and Natural Sciences"
+    "Languages": "Turkish (native), English (Fluent), German (Intermediate)",
+    "Address":"Sabanci University, Faculty of Engineering and Natural Sciences, İstanbul"
   },
 
   "education": [
@@ -11,25 +11,25 @@
       "institution": "Middle East Technical University",
       "area": "Chemistry",
       "studyType": "BSc",
-      "date": "2010"
+      "endDate": "2010"
     },
     {
       "institution": "Albert Ludwigs University of Freiburg",
       "area": "Chemistry",
       "studyType": "MSc",
-      "date": "2014"
+      "endDate": "2014"
     },
     {
       "institution": "Sabanci University",
       "area": "Molecular Biology and Bioengineering",
       "studyType": "PhD",
-      "date": "2024"
+      "endDate": "2024"
     }
   ],
 
-  "research experience": [
+  "research_experience": [
     {
-      "name": "Sabancı University",
+      "name": "Sabanci University",
       "position": "PhD candidate",
       "startDate": "2018",
       "endDate": "2024",
@@ -38,17 +38,6 @@
     }
   ],
 
-
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "url": "",
-      "summary": ".'"
-    }
-  ],
-  
   "publications": [
     {
       "name": "Multiply Perturbed Response to Disclose Allosteric Control of Conformational Change: Application to Fluorescent Biosensor Design",
