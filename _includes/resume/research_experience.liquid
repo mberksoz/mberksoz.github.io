@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for content in include.data %}
+  {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
@@ -17,11 +17,11 @@
             {{ content.position }}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
-          {% if content.highlights %}
+
+          {% if content.summary and content.summary != '' %}
             <ul class="ml-1 ml-md-4">
-              {% for highlight in content.highlights %}
-                <li>{{ highlight }}</li>
+              {% for bullet in content.summary %}
+                <li>{{ bullet }}</li>
               {% endfor %}
             </ul>
           {% endif %}
@@ -30,5 +30,4 @@
     </li>
   {% endfor %}
 </ul>
-
 
