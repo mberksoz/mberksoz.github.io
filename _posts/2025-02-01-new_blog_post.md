@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: new_blog_post
 date: 2025-02-01
 description: march & april, looking forward to summer
 tags: formatting links
