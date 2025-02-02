@@ -116,7 +116,9 @@ layout: default
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% when 'research_experience' %}
-                 {% include resume/research_experience.liquid data=site.data.resume.research_experience %}
+                  {% include resume/research_experience.liquid %}
+                {% when 'selected_conference_proceedings' %}
+                  {% include resume/selected_conference_proceedings.liquid %}
                 {% else %}
               {% endcase %}
             </div>
