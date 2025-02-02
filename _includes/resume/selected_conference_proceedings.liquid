@@ -1,5 +1,8 @@
+<p>✅ Debugging selected_conference_proceedings.liquid</p>
+<pre>{{ data | jsonify }}</pre>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for content in site.data.resume.selected_conference_proceedings %}
+  {% for content in data %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
@@ -24,3 +27,4 @@
     </li>
   {% endfor %}
 </ul>
+
