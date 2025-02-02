@@ -1,21 +1,29 @@
-<p>✅ Debugging selected_conference_proceedings.liquid</p>
-<pre>{{ data | jsonify }}</pre>
-
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for content in data %}
+  {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
+        <!-- Date Column -->
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> 
             {{ content.date }} 
           </span>
         </div>
+        
+        <!-- Conference Details -->
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            {{ content.title }}
+            {% if content.url %}
+              <a href="{{ content.url }}" target="_blank" rel="noopener noreferrer">{{ content.title }}</a>
+            {% else %}
+              {{ content.title }}
+            {% endif %}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.conference }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.location }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-weight: bold;">
+            {{ content.conference }}
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.9rem; color: gray;">
+            {{ content.location }}
+          </h6>
 
           {% if content.summary and content.summary != '' %}
             <ul class="ml-1 ml-md-4">
@@ -27,4 +35,5 @@
     </li>
   {% endfor %}
 </ul>
+
 
